@@ -1,0 +1,154 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #fffaf3;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#2a1e1a
+
+}
+header{
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    color:#fbf7f1;
+    background-color: rgb(63, 29, 1);
+    border-radius: 12px;
+    line-height: 2;
+    text-align: center;
+}
+
+#menu{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap:10px;
+}
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h2{ font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #593c28;
+}
+#sobre{
+    background-color: #fffbf3;
+    border: 2px solid#e4c8a5;
+    border-radius: 12px;
+    margin: 20px;
+    padding: 10px;
+    line-height: 2;
+}
+#sobre img{
+    width: 100%;
+    height:500px;
+    border-radius: 12px;
+}
+#cardapio{
+    margin: 20px;
+    padding: 20px;
+     background-color: #fffbf3;
+    border: 2px solid #e4c8a5;
+    border-radius: 12px;
+
+}
+#cardapio-fotos{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.card{
+    background-color: #fff7ed;
+    width: 30%;
+    box-sizing: border-box;
+    border:1px solid #ebd6bb;
+    padding: 15px;
+    border-radius: 10px;
+}
+.card img{
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+#diferenciais{
+    margin: 20px;
+    padding: 20px;
+    background-color:  #fffbf3;
+    border: 2px solid #e4c8a5;
+    border-radius: 12px;
+    line-height: 2;
+}
+#horarios{
+     margin: 20px;
+    padding: 20px;
+    background-color: #fffbf3;
+    border: 2px solid #e4c8a5;
+    border-radius: 12px;
+
+}
+table{
+    margin-top: 20px;
+    padding: 10px;
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid  #c1ab90; 
+    text-align: left;
+caption{
+    text-align: left;
+}
+}
+th{
+    background-color: #5b2e1b;
+    color:#ffffff;
+}
+td{
+    background-color: rgb(243, 222, 205);
+}
+th,td{
+     border: 1px solid  #b5a087; 
+   
+}
+#contato{
+    font-size: 2;
+    margin: 20px;
+    padding: 20px;
+    background-color: #d1a279;
+    border: 2px solid #ddc6aa;
+    border-radius: 12px;
+    line-height: 2;
+    
+}
+#contato a{
+    color:#33251f;
+    text-decoration: underline;
+}
+#contato a{
+    color:#593728;
+    text-decoration: underline;
+}
+
+footer{
+    text-align: center;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    color:#fbf7f1;
+    background-color: rgb(63, 29, 1);
+    border-radius: 12px;
+}
+a{
+    color:#fff7ed;
+    text-decoration:none;
+}
+a:hover{
+     color:#d7ba75;
+}
+spam{
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 400;
+}
