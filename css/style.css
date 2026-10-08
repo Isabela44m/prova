@@ -147,8 +147,8 @@ a{
 a:hover{
      color:#d7ba75;
 }
-spam{
+span{
     text-transform: uppercase;
     font-size: 15px;
-    font-weight: 400;
+    font-weight: 600;
 }
